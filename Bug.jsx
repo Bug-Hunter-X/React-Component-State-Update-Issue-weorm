@@ -1,0 +1,1 @@
+This React component uses the wrong lifecycle method to update the state.  It attempts to update state within `componentDidMount`, which is only called once after the component renders.  If the data it relies on changes later, the state will not be updated. The correct approach is to use `useEffect` with a dependency array to fetch the data and update state accordingly.
