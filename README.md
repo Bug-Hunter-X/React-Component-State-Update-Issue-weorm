@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React development where a component's state fails to update after the initial render. The `Bug.jsx` file shows the incorrect implementation using `componentDidMount`, while `BugSolution.jsx` presents the correct solution using `useEffect`.
